@@ -1,14 +1,14 @@
-
-
-import java.util.Scanner;
-
-public class ConsoleExercises {
-    public static void main(String[] args) {
+//package main;
+//
+//import java.util.Scanner;
+//
+//public class ConsoleExercises {
+//    public static void main(String[] args) {
 //        double pi = 3.14159;
 //        System.out.format("The value of pi is approximately %,.2f", pi);
 
-
-        Scanner input = new Scanner(System.in);
+//
+//        Scanner input = new Scanner(System.in);
 
 //        int myNum = input.nextInt();
 //        System.out.println("integer");
@@ -24,5 +24,5 @@ public class ConsoleExercises {
 
 
 
-    }
-}
+//    }
+//}
