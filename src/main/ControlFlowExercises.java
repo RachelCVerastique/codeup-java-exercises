@@ -1,7 +1,7 @@
-import java.util.function.ToDoubleBiFunction;
-
-import java.util.Scanner;
-
+//import java.util.function.ToDoubleBiFunction;
+//
+//import java.util.Scanner;
+//
 //public class ControlFlowExercises {
 //
 //    public static void main(String[] args) {
@@ -20,32 +20,32 @@ import java.util.Scanner;
 //            i-=5;
 //        } while( i >= -10 );
 //
-//        HALP***********************************************************
+//       // HALP***********************************************************
 //        int i = 2;
 //        do {
 //            System.out.println("Your number is : " + i);
 //            i = (int) Math.pow(i, 2);
 //
 //        } while( i <= 1000000 );
-
+//
 //        for (int i = 5; i <= 15; i++) {
 //            System.out.println("Your number is  " + i);
 //        }
-
+//
 //        for (int i = 0; i <= 100; i+=2) {
 //            System.out.println("Your number is  " + i);
 //        }
-
+//
 //        for (int i = 100; i >= -10; i-=5) {
 //            System.out.println("Your number is  " + i);
 //        }
-
-//      HALP***************************************************
-//        for (int i = 2; i <= 1000000; i+=2) {
+//
+//      //HALP***************************************************
+//        for (int i = 2; i <= 1000000;  i = (int) Math.pow(i, 2)) {
 //
 //            System.out.println("Your number is  " + i);
 //        }
-
+//
 //        //Fizz Buzz
 //        for (int i = 1; i <= 100; i++) {
 //            if (i % 3 == 0 && i % 5 == 0) {
@@ -58,7 +58,7 @@ import java.util.Scanner;
 //                System.out.println(i);
 //            }
 //        }
-
+//
 //            Scanner sc = new Scanner(System.in);
 //
 //        System.out.println("What number would you like to go up to ?");
@@ -75,9 +75,9 @@ import java.util.Scanner;
 //            System.out.println(i + "     | " + (i * i) + "     |" + "  " +(i * i * i));
 //        }
 //
-
-
-
+//
+//
+//
 //
 //        Scanner sc = new Scanner(System.in);
 //
