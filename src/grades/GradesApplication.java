@@ -32,19 +32,31 @@ public class GradesApplication {
             System.out.print("|" + key + "| ");
         }
         System.out.println();
-        System.out.println("What student would you like to see more information on?");
-        String userInput = sc.next();
+
 
         do {
+            System.out.println("What student would you like to see more information on?");
+            String userInput = sc.next();
+            sc.nextLine();
+
             if(students.containsKey(userInput)) {
                 Student currentStudent = students.get(userInput);
                 System.out.println(currentStudent.getName());
                 System.out.println(currentStudent.getGradeAverage());
-                System.out.println("Would you like to see another student?");
             } else {
                 System.out.println("YOU SHALL NOT PASS!");
+                System.out.println("Would you like to see another student?");
+            }
 
-        }
-        } while (userInput.contains("y") == true);
+            System.out.println("Would you like to continue?");
+            userInput = sc.next();
+            sc.nextLine();
+
+            if( userInput.equals("n")) {
+                System.out.println("Goodbye, and have a wonderful day!");
+                break;
+            }
+
+            } while (true);
     }
 }
